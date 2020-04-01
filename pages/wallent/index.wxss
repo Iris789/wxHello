@@ -1,0 +1,51 @@
+/* pages/wallent/index.wxss */
+.container{
+  background-color: #f2f2f2;
+}
+.wallent-info{
+  padding: 50rpx 0;
+  text-align: center;
+  background-color: #fff;
+}
+.wallent-title{
+  font-size: 24rpx;
+}
+.wallent-content{
+  font-size: 100rpx;
+  font-weight: 700;
+}
+.wallent-desc text{
+  padding: 0 20rpx;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+button{
+  width: 90%;
+  margin: 20rpx auto;
+  color: #f2f2f2;
+  background-color: #38f;
+}
+.flexcommon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.other-info{
+  margin-bottom: 20rpx;
+  background-color: #fff;
+}
+.ticket,.deposit{
+  padding: 40rpx 20rpx;
+}
+.ticket{
+  border-bottom: 1px solid #f2f2f2;
+}
+.refund{
+  color: #38f;
+  margin-right: 10rpx;
+}
+.about{
+  padding: 40rpx 20rpx;
+  background-color: #fff;
+}

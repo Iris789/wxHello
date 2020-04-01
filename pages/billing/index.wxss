@@ -1,0 +1,31 @@
+/* pages/billing/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.bike-info,.btn{
+  flex: 2;
+}
+.bike-info{
+  padding: 50rpx 0;
+  font-size: 24rpx;
+}
+.speed-money{
+  flex: 6;
+  text-align: center;
+  font-size: 24rpx;
+}
+.money-content{
+  font-size: 100rpx;
+}
+.btn{
+  width: 100%;
+}
+/*button默认样式宽度会有影响 去掉app.json里的"style": "v2"即可*/
+.btn button{
+  width: 90%;
+  margin-top: 40rpx;
+  font-size: 28rpx;
+}

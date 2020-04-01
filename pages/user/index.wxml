@@ -1,0 +1,25 @@
+<!--pages/user/index.wxml-->
+<view class="container">
+  <view class="user-info">
+    <view class="user-title">
+      <block wx:if="{{user.photo!==''}}">
+        <view class="user-photo">
+          <image src="{{user.photo}}"></image>
+        </view>
+      </block>
+      <view class="user-name">{{user.nickname}}</view>
+    </view>
+    <block wx:if="{{user.photo!==''}}">
+      <view class="user-wallent" bindtap="movetowallent">
+        <text>我的钱包</text>
+        <text>></text>
+      </view>
+    </block>
+  </view>
+  <block wx:if="{{user.photo==''}}">
+    <button type="primary" open-type="getUserInfo" bindgetuserinfo="login">登录</button>
+  </block>
+  <block wx:else>
+    <button type="warn" bindtap="loginout">退出登录</button>
+  </block>
+</view>

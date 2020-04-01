@@ -1,0 +1,23 @@
+/* pages/scanResult/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.psw-title,.tips{
+  flex: 1;
+  padding: 50rpx 0;
+  font-size: 24rpx;
+}
+.psw-content{
+  flex: 8;
+  font-size: 240rpx;
+  font-weight: 900;
+}
+.tips-action{
+  padding-top: 20rpx;
+}
+.tips-href{
+  color: #38f;
+}

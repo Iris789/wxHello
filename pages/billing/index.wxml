@@ -1,0 +1,18 @@
+<!--pages/billing/index.wxml-->
+<view class="container">
+  <view class="bike-info">
+    当前单车编号 {{number}}
+  </view>
+  <view class="speed-money">
+    <view>
+      {{actionText}}
+      <view class="money-content">
+      {{hour}}:{{min}}:{{sec}}
+      </view>
+    </view>
+  </view>
+  <view class="btn">
+    <button type="warn" size="default" bindtap="endride" disabled="{{disabled}}">结束骑行</button>
+    <button type="primary" bindtap="backmap">回到地图</button>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/wallent/index.wxml-->
+<view class="container">
+  <view class="wallent-info">
+    <view class="wallent-title">
+      <text>我的余额（元）</text>
+    </view>
+    <view class="wallent-content">
+      <text>{{money}}</text>
+    </view>
+    <view class="wallent-desc">
+      <text bindtap="readdesc">余额说明</text>
+    </view>
+  </view>
+  <button bindtap="charge">充值</button>
+  <view class="other-info">
+    <view class="ticket flexcommon">
+      <text>我的用车券</text>
+      <text>{{count}}张></text>
+    </view>
+    <view class="deposit flexcommon">
+      <text>我的押金</text>
+      <text><text class="refund">99元，押金退款</text>></text>
+    </view>
+  </view>
+  <view class="about flexcommon">
+    <text>关于哈啰</text>
+    <text>></text>
+  </view>
+</view>
